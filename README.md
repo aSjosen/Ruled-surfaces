@@ -1,5 +1,10 @@
-This is repo based on the work I did for my master thesis on ruled surfaces in 2015 at the University of Copenhagen. It will contain 3 types of algorithms:
+This is repo based on the work I did for my master thesis on ruled surfaces in 2015 at the University of Copenhagen. 
 
-  1. Algorithms for constructing ruled surfaces from a set of input curves.
-  2. Algorithms for segmenting a CAD surface into regions that are well-approximated by ruled surfaces.
-  3. Algorithms for approximating CAD surfaces by ruled surfaces.
+It will contain the following set of fundamental NURBS algorithms: 
+
+	- degree elevation
+	- knot insertion/removal
+	- knot refinement
+
+and an algorithm for defining a ruled surface (NURBS) by connecting any two NURBS curves with straight lines. 
+
